@@ -19,6 +19,7 @@ import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients
       </div>
     </div>
 
+
     {/*This section is for the main splash page content visible when the page loads*/}
     <div  className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
@@ -32,8 +33,10 @@ import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients
         <Footer />
       </div>
     </div>
-
+    
   </div>
+
+  
 );
 
 
